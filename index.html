@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/main.css">
+	<title>Weather API - Fetch & async await</title>
+</head>
+<body>	
+	<div class="container">
+		<div class="current-location">
+			<nav class="navbar">
+				<div class="w-search">			
+					<input size="15" type="text" placeholder="Search for a city...">	
+					<span>No such city exist</span><!-- will show up when city do not exist -->		
+				</div>
+			</nav>
+			<!-- main display -->
+			<section class="w-main">				
+				<div class="w-location">	
+					<h1></h1><!-- city -->		
+					<h2></h2><!-- current date -->
+					<img><!-- weather img -->		
+				</div>
+				<div class="details">
+					<div class="w-sun-updown">
+						<img><!-- sunset/sunrise img -->
+						<span class="sunrise"></span><!-- time of sunrise -->
+						<span class="sunset"></span><!-- time of sunset -->						
+					</div>
+					<h3 class="w-temp"></h3><!-- current temp -->
+					<div class="w-wind">
+						<img><!-- wind img -->
+						<span></span><!-- wind strength -->
+					</div>				
+				</div>
+			</section>			
+			<footer class="w-desc">
+				<h3></h3><!-- desc of the weather example: overcast clouds -->
+			</footer>			
+		</div>		
+	</div>
+	
+	<script src="js/weather.js"	></script>
+	<script src="js/ui.js"></script>
+	<script src="js/main.js"></script>	
+</body>
+</html>

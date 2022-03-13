@@ -9,7 +9,7 @@ Simple weather API using [The Open Weather Map](https://api.openweathermap.org/a
 
 ## Requirements
 - To access Weather API data you need first sign in into [The Open Weather Map](https://api.openweathermap.org/api) and obtain the api key.
-- Then go to project directory and replace ```api_key``` with your own key ```const WEATHER_API = 'api_key';```
+- Then go to ```weather.js``` in project directory and replace ```api_key``` with your own key ```const WEATHER_API = YOUR_API_KEY_HERE;```
 
 ## Installation
 

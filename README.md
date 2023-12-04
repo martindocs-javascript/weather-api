@@ -8,7 +8,7 @@ This weather API provides information about the current temperature, wind status
 
 ## Screenshot
 <p style="text-align:center; transform: scale(0.8,0.8)">
-    <img src="img/weather-api-src1.png" alt="" />
+    <img src="./assets/img/weather-api-src1.png" alt="" />
 </p>
 
 ## How to Use
